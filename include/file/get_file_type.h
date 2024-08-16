@@ -1,7 +1,7 @@
 #ifndef _GET_FILE_TYPE_H
 #define _GET_FILE_TYPE_H 1
 
-#include "endswithstr.h"
+#include "../string/endswithstr.h"
 
 typedef enum{
     PYTHON,

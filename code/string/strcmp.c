@@ -1,4 +1,4 @@
-#include "../include/strcmp.h"
+#include "../../include/string/strcmp.h"
 
 int Strcmp(const char* str1, const char* str2){
     while(*str1){

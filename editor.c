@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "include/dump_file.h"
+#include "include/file/dump_file.h"
 #include "include/print_help.h"
-#include "include/strcmp.h"
-#include "include/endswith.h"
-#include "include/check_params.h"
+#include "include/string/strcmp.h"
+#include "include/string/endswith.h"
+#include "include/file/check_params.h"
 
 #define CHAR_BUFF 100
 

@@ -1,6 +1,6 @@
-#include "../include/endswithstr.h"
-#include "../include/strlen.h"
-#include "../include/strcmp.h"
+#include "../../include/string/endswithstr.h"
+#include "../../include/string/strlen.h"
+#include "../../include/string/strcmp.h"
 
 int endswithstr(const char* target, const char* str){
     unsigned int len_str = Strlen(str);

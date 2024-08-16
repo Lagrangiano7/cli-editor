@@ -1,4 +1,4 @@
-#include "../include/endswith.h"
+#include "../../include/string/endswith.h"
 #include <stdio.h>
 
 char endswith(const char* str){

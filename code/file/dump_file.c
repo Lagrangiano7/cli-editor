@@ -1,6 +1,6 @@
-#include "../include/dump_file.h"
-#include "../include/endswithstr.h"
-#include "../include/get_file_type.h"
+#include "../../include/file/dump_file.h"
+#include "../../include/string/endswithstr.h"
+#include "../../include/file/get_file_type.h"
 
 int dump_file(const char* filename){
 

@@ -1,12 +1,12 @@
 CC=gcc
 TARGET=editor
-C_FILES=./code/dump_file.c \
+C_FILES=./code/file/dump_file.c \
 ./code/print_help.c \
-./code/strcmp.c \
-./code/endswith.c \
-./code/endswithstr.c \
-./code/contains_str.c \
-./code/strlen.c \
+./code/string/strcmp.c \
+./code/string/endswith.c \
+./code/string/endswithstr.c \
+./code/string/contains_str.c \
+./code/string/strlen.c \
 ./editor.c
 OBJS=$(C_FILES:.c=.o)
 

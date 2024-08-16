@@ -1,5 +1,5 @@
-#include "../include/contains_str.h"
-#include "../include/strlen.h"
+#include "../../include/string/contains_str.h"
+#include "../../include/string/strlen.h"
 
 int contains_str(const char* target, const char* str){
 

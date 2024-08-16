@@ -1,8 +1,8 @@
 #ifndef _CHECK_PARAMS_H
 #define _CHECK_PARAMS_H 1
-#include "print_help.h"
-#include "strcmp.h"
-#include "endswithstr.h"
+#include "../print_help.h"
+#include "../string/strcmp.h"
+#include "../string/endswithstr.h"
 
 int Check_params(int argc, char* argv2){
     if(argc!=3){
