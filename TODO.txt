@@ -1,0 +1,2 @@
+1. Implement filetype-based keyword coloring (i.e: blue for import in .py files)
+    1.1. Finish "contains_str.c"
